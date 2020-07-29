@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+  
+  <title>Frontend Mentor | [Social media dashboard with theme switcher]</title>
+
+</head>
+<body>
+  <header>
+    <div>
+        <h1>Social Media Dashboard</h1>
+        <h3>Total Followers: 23,004</h3>
+    </div>
+
+    <div>
+      <h3>Dark Mode</h3>
+      <label class="switch">
+        <input type="checkbox" id="toggle" value="light">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="principal">
+
+      <div class="card-wrapper fb">
+        <div class="card">
+          <div class="group">
+            <span>
+              <img src="./images/icon-facebook.svg" alt="">
+            </span>
+            <span>@nathanf</span>
+          </div>
+          <h1>1987</h1>
+          <p>FOLLOWERS</p>
+          <div class="group">
+            <span>
+              <img src="./images/icon-up.svg" alt="">
+            </span>
+            <span class="positive">12 Today</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper tt">
+        <div class="card">
+          <div class="group">
+            <span>
+              <img src="./images/icon-twitter.svg" alt="">
+            </span>
+            <span>@nathanf</span>
+          </div>
+          <h1>1044</h1>
+          <p>FOLLOWERS</p>
+          <div class="group">
+            <span>
+              <img src="./images/icon-up.svg" alt="">
+            </span>
+            <span class="positive">99 Today</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper ig">
+        <div class="card">
+          <div class="group">
+            <span>
+              <img src="./images/icon-instagram.svg" alt="">
+            </span>
+            <span>@realnathanf</span>
+          </div>
+          <h1>11k</h1>
+          <p>FOLLOWERS</p>
+          <div class="group">
+            <span>
+              <img src="./images/icon-up.svg" alt="">
+            </span>
+            <span class="positive">1099 Today</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper yt">
+        <div class="card">
+          <div class="group">
+            <span>
+              <img src="./images/icon-youtube.svg" alt="">
+            </span>
+            <span>Nathan F.</span>
+          </div>
+          <h1>8239</h1>
+          <p>SUBSCRIBERS</p>
+          <div class="group">
+            <span>
+              <img src="./images/icon-down.svg" alt="">
+            </span>
+            <span class="negative">144 Today</span>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    
+    <h2>Overview - Today</h2>
+
+    <section class="overview">
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Page Views</h3>
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>87</h1>
+          <p class="positive">
+            <img src="./images/icon-up.svg" alt="">
+            3%
+          </p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Likes</h3>
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>52</h1>
+          <p class="negative">
+            <img src="./images/icon-down.svg" alt="">
+            2%
+          </p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Likes</h3>
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>5462</h1>
+          <p class="positive">
+            <img src="./images/icon-up.svg" alt="">
+            2257%
+          </p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Profile Views</h3>
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>52k</h1>
+          <p class="positive">
+            <img src="./images/icon-up.svg" alt="">
+            1375%
+          </p>
+        </div>
+      </div>
+
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Retweets</h3>
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>117</h1>
+          <p class="positive">
+            <img src="./images/icon-up.svg" alt="">
+            303%
+          </p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Likes</h3>
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>507</h1>
+          <p class="positive">
+            <img src="./images/icon-up.svg" alt="">
+            553%
+          </p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Likes</h3>
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>107</h1>
+          <p class="negative">
+            <img src="./images/icon-down.svg" alt="">
+            19%
+          </p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <div class="group">
+          <h3>Total Views</h3>
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="group">
+          <h1>1407</h1>
+          <p class="negative">
+            <img src="./images/icon-down.svg" alt="">
+            12%
+          </p>
+        </div>
+      </div>
+
+      
+
+    </section>
+  </main>
+
+  <script src="script.js"></script> 
+</body>
+</html>
